@@ -1,0 +1,51 @@
+body{
+	background-color: #eeeeee;}
+header{
+	height: 60px;
+	width: 100%;
+	background-color: #333;
+}
+.logo-name{
+margin-left: 20px;
+font-size: 50px;
+color: #fff;
+height: 50px;
+}
+.menu{
+position: relative;
+right: 20px;
+height: 50px;
+float: right;
+}
+.menu>li{
+	font-size: 20px;
+width: 100px;
+float: right;
+text-align: center;
+margin-left: 30px;
+}
+.content{
+	background-color: white;
+	padding: 20px;
+	margin:10px;
+	border: 1px solid black;
+}
+table{
+	border: thin solid black;
+	margin: 20px;
+}
+th,td{
+	border: thin dotted grey;
+	padding: 5px;
+}
+button{
+    padding:8px 13px;
+    background-color: #00a0e9;
+    color:#fff;
+    border-radius: 10px;
+    border:none;
+    width: 100%;
+}
+.center{
+	text-align: center;
+}
