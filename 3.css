@@ -1,0 +1,74 @@
+/* need to be solved: */
+/* member padding bottom 2px auto */
+
+* {
+	margin:  0;
+	padding: 0;
+}
+body {
+	border: 1px solid #999;
+	padding: 19px 19px;
+}
+.wrap {
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 19px;
+	overflow: auto;
+}
+.team {
+	width: 160px;
+	/* 200-1-19-19-1=160,  */
+	background-color: white;
+	border: 1px solid #999;
+	padding: 19px;
+	overflow: auto;
+	float: left;
+}
+
+.team img {
+	width: 78px;
+	height: 78px;
+	border: 1px solid #999;
+	float: left;
+}
+
+.team span {
+	font-size: 14px;
+	line-height: 14px;
+	float: right;
+}
+
+.intro {
+	background-color: white;
+	border: 1px solid #999;
+	margin-left: 218px;
+	margin-right: 138px;
+	padding: 17px;
+}
+
+.intro p {
+	line-height: 1em;
+	font-size: 0.75em;
+	margin: 2px 0 12px;
+}
+
+.member {
+	background-color: white;
+	border: 1px solid #999;
+	width: 82px; 
+	/* 80+1+1=82 */
+	/* height: auto; */
+	padding:19px 18px 18px;
+	/* 80x80 can not meet so 120-2-80-2=18 */
+	float: right;
+}
+.member img{
+	width: 78px;
+	height: 78px;
+	border: 1px solid #999;
+	margin: 0 0 10px; 
+	/* space btw img is not 20 */
+}
+.member .last {
+	margin-bottom: 2px;
+}
