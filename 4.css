@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin:0;
+	padding:0;
+	position: relative;
+	height: 100%;
+}
+#gray{
+	background-color: gray;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 200px;
+	resize: both;
+	overflow: hidden;
+}
+#yellow1{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+#yellow2{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+}
